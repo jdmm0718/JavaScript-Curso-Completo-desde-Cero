@@ -143,5 +143,36 @@ var ordenesDePizza = [
             "pimenton"
         ],
         "paraLlevar": false
+    },
+    {
+        "tipo": "napolitana",
+        "tamamaño": "individual",
+        "precio": 6.78,
+        "toppings": [],
+        "politana": true
     }
 ];
+
+console.log(ordenesDePizza[0]);
+console.log(ordenesDePizza[1]);
+console.log(ordenesDePizza[2]);
+console.log(ordenesDePizza[0].tipo);
+console.log(ordenesDePizza[0]["precio"]);
+
+
+var miReceta = {
+    descripcion: "mi postre favorito",
+    "costo": 15.6,
+    "ingredientes": {
+        "masa": {
+            "harina": "100 grs",
+            "sal": "1 cucharadita",
+            "agua": "1 taza",
+        },
+        "cobertura": {
+            "azucar": "120 grs",
+            "chocolate": "4 cucharadita",
+            "mantequilla": "200 grs",
+        }
+    }
+};
