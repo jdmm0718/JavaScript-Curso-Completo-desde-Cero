@@ -176,3 +176,31 @@ var miReceta = {
         }
     }
 };
+
+console.log(miReceta.descripcion);
+console.log(miReceta.costo);
+console.log(miReceta.ingredientes);
+console.log(miReceta.ingredientes.masa);
+console.log(miReceta.ingredientes.cobertura);
+
+
+var misPlantas = [
+    {
+        tipo: "flores",
+        lista: [
+            "rosas",
+            "tulipanes",
+            "dientes de leon"
+        ]
+    },
+    {
+        tipo: "arboles",
+        lista: [
+            "abeto",
+            "pino",
+            "abedul"
+        ]
+    }
+];
+
+var primeraFlor = misPlantas[0].lista[0];
