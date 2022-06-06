@@ -13,3 +13,29 @@ var a = 6;
 
 console.log(`El valor de a es ${a}`);
 
+let nombre = 'Cris';
+let edad = 25;
+console.log('Mi nombre es %s y tengo %d', nombre, edad);
+
+
+const crearPersona = (nombre, edad, idioma) => ({nombre, edad, idioma});
+
+
+
+const persona = {
+    nombre: "isabel",
+    presentarse: function() {
+        return `!hola! mi nombre es ${this.nombre}`;
+    }
+};
+
+console.log(persona.presentarse());
+
+const persona = {
+    nombre: "isabel",
+    presentarse() {
+        return `!hola! mi nombre es ${this.nombre}`;
+    }
+};
+
+console.log(persona.presentarse());
