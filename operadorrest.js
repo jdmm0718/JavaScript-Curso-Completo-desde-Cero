@@ -44,3 +44,26 @@ console.log(y);
 console.log(z);
 
 
+const usuario = {
+    johnDoe: {
+        edad: 27,
+        correo: "johndoe@freecodecamp.com"
+    }
+};
+
+const {johnDoe: {edad, correo}} = usuario;
+
+console.log(edad);
+console.log(correo);
+
+const estadisticas = {
+    max: 56.78,
+    desviacionEstandar: 34.54,
+    moda: 23.87,
+    min: -0.75,
+    promedio: 35.85
+};
+
+const mitad = ({max, min}) => (max + min) / 2.0;
+
+console.log(mitad(estadisticas));
